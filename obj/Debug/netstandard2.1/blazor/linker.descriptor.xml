@@ -1,0 +1,5 @@
+﻿<linker>
+  <assembly fullname="blazor-ghpages">
+    <type fullname="*" required="true" />
+  </assembly>
+</linker>
