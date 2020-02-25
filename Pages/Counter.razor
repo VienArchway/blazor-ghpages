@@ -1,0 +1,18 @@
+@* TODO: define route *@
+@page "/counter"
+
+@* TODO: implment layout ui *@
+<h1>Counter</h1>
+<p>Counter count: @_counterCount</p>
+<button class="btn btn-primary" @onclick="IncrementCounter">Increment counter</button>
+
+@* TODO: implement code *@
+
+
+@code {
+	private int _counterCount = 0;
+
+	private void IncrementCounter() {
+		_counterCount++;
+	}
+}
